@@ -1,0 +1,678 @@
+@font-face {
+    font-family: ArcaMajora3;
+    src: url('fonts/ArcaMajora3-Bold.otf');
+}
+@font-face {
+    font-family: ArcaMajora;
+    src: url('fonts/ArcaMajora3-Heavy.otf');
+}
+@font-face {
+    font-family: Poppins;
+    src: url('fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: NunitoSans;
+    src: url('fonts/NunitoSans-Regular.ttf');
+}
+body{
+    width: 1920px;
+}
+header{
+    background-image: url("img/bakgroundHeader.png");
+    height: 977px;
+}
+
+.logo{
+    text-align: left;
+    margin-top: 50px;
+}
+
+.menu li{
+    margin-left: -20px;
+    margin-top: 62px;
+    width: 25%;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-family: ArcaMajora3;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+#home a{
+    color: rgb(54,147,174);
+}
+.log{
+    float: left;
+}
+.login{
+    margin-top: 62px;
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: right;
+    font-size: 14px;
+    font-family: ArcaMajora3;
+    color: white;
+    text-decoration: none;
+}
+
+.login li a{
+    display: block;
+    float: left;
+    text-decoration: none;
+
+}
+
+.register{
+    background-color: rgb(50,175,197);
+    padding: 3px;
+    box-shadow: 2px 3px rgb(93,141,168);
+    border: none;
+    border-radius:50px;
+    width: 172px;
+    height: 55px;
+    margin-top: 43px;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    font-family: ArcaMajora3;
+    color: white;
+}
+
+.text{
+    margin-top: 290px;
+    text-transform: uppercase;
+    color: white;
+    font-family: ArcaMajora;
+    font-size: 94px;
+}
+
+.txt{
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+
+}
+#dropDown1{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#dropDown2{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.btn-group{
+    border: none;
+    position: relative;
+    z-index: 2;
+}
+src:hover{
+    background-color: white;
+}
+.btnSearch{
+    font-family: Poppins;
+    font-size: 14px;
+    color: rgb(51,51,51);
+    margin-left: 481px;
+    text-align: center;
+    margin-top: 57px;
+}
+.src{
+    text-align: center;
+    width: 286px;
+    height: 58px;
+}
+
+.search{
+    margin-top: -58px;
+    text-align: center;
+    height: 58px;
+    position: relative;
+    z-index: 1;
+    width: 90px;
+}
+
+#srch{
+    height: 58px;
+    width: 90px;
+    background-color: rgb(50,175,197);
+    font-size: 20px;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 1310px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.steps{
+    margin-top: 80px;
+    font-family: ArcaMajora;
+    font-size: 40px;
+}
+
+.photoMain {
+    margin-left: -29px;
+}
+
+.icon{
+    text-align: left;
+
+}
+
+.regist{
+    text-align: left;
+    margin-top: 70px;
+}
+
+.four{
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: ArcaMajora3;
+}
+
+p{
+    font-family: Poppins;
+    font-size: 14px;
+    color: rgb(178,178,178);
+}
+
+.description{
+    margin-left: 10px;
+}
+
+.find {
+    margin-top: 20px;
+}
+
+.bid{
+    margin-top: 20px;
+}
+
+.win{
+    margin-top: 20px;
+}
+
+.reg{
+    margin-left: 70px;
+}
+
+.perfect{
+    background-color: rgb(247,247,247);
+}
+.perfectMenu{
+    width: 955px;
+    height: 55px;
+    margin-top: 80px;
+    margin-left: 467px;
+}
+
+.item{
+    font-family: Poppins;
+    font-size: 14px;
+    color: rgb(51,51,51);
+    width: 182px;
+    height: 57px;
+    z-index: 2;
+    position: relative;
+}
+.forCar{
+    text-transform: uppercase;
+    color: white;
+    font-family: ArcaMajora3;
+    font-size: 14px;
+    background-color: rgb(50,175,197);
+    width: 235px;
+    height: 57px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 700px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: -57px;
+}
+
+#radius1{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+#radius2{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.perfectCar{
+    font-size: 47px;
+    font-family: ArcaMajora;
+    text-align: center;
+    margin-top: 112px;
+}
+
+.timer{
+    position: relative;
+    width: 174px;
+    height: 33px;
+    background-color: rgb(241,84,86);
+    border-radius: 8px;
+    z-index: 2;
+    margin-top: -201px;
+
+}
+
+.time{
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    text-align: center;
+    padding-top: 9px;
+}
+
+
+
+.auto{
+    position:relative;
+    z-index: 1;
+}
+
+.yars{
+    font-size: 14px;
+    font-family: Poppins;
+    text-align: center;
+    margin-top: 201px;
+}
+
+.price{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 26px;
+    font-family:ArcaMajora;
+    margin-top: 5px;
+}
+
+.bidPerfect{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.paramCar{
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: NunitoSans;
+    display: block;
+    float: left;
+    color: rgb(75,75,75);
+}
+
+.paramCar li{
+    text-align: center;
+    display: block;
+    float: left;
+    text-decoration: none;
+}
+.cars{
+    margin-top: 51px;
+    background-color: white;
+    border-radius: 8px;
+}
+.see{
+    margin-bottom: 110px;
+    margin-left: 860px;
+    box-shadow: 2px 3px rgb(232,232,232);
+    background-color: white;
+    color: black;
+}
+.more{
+
+    text-align: center;
+     background-color: rgb(247,247,247);
+}
+.blog{
+
+    margin-left: -390px;
+}
+
+.customer{
+    margin-top: 110px;
+    margin-left: 80px;
+    font-family: ArcaMajora;
+    font-size: 47px;
+}
+.undoRedo{
+    margin-right: 6px;
+    margin-top: 103px;
+
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.ico{
+    margin-left: 40px;
+}
+.ghilimele{
+    text-align: left;
+    margin-top: 100px;
+}
+
+.bloger{
+    margin-left: 80px;
+    font-family: Poppins;
+    font-size: 18px;
+    margin-top: 57px;
+    color: rgb(204,204,204);
+}
+
+
+.name{
+    margin-left: 4px;
+    margin-top: 107px;
+    font-family: ArcaMajora;
+    font-size: 22px;
+    color: rgb(239,93,96);
+}
+
+.date{
+    margin-top: 114px;
+    color: rgb(122,122,122);
+    font-size: 16px;
+    font-family: Poppins;
+}
+.ghilimele2{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+footer{
+    background-image: url("img/bakgroundFooter.png");
+}
+.size{
+    margin-top: 110px;
+    width: 750px;
+    color: rgb(145,145,145);
+    background-color: rgb(215,215,215);
+    height: 110px;
+    font-family: "Lato Black";
+    font-size: 30px;
+    text-align: center;
+    padding-top:30px;
+}
+
+.banner{
+    margin-top: 25px;
+}
+.abt{
+    text-align: left;
+    color: white;
+    line-height: 18px;
+    margin-top: 110px;
+    font-size: 14px;
+    font-family: Poppins;
+
+}
+
+.title{
+    color: white;
+    margin-top: 111px;
+    margin-bottom: 20px;
+    font-family: ArcaMajora;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 16px;
+}
+
+.menuFooter li {
+
+    margin-left: -40px;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 34px;
+    display: block;
+
+}
+.menuFooter li a{
+    color: white;
+}
+#bg a{
+    color: rgb(54,147,174);
+}
+
+.about, .interested{
+    margin-left: 55px;
+}
+.interested{
+    margin-top: 35px;
+    margin-right: 55px;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 20px;
+}
+.input-group{
+    height: 40px;
+    margin-left: 40px;
+}
+
+#subscribe{
+    padding-top: 10px;
+    text-align: center;
+    border: none;
+    height: 40px;
+    background-color: rgb(50,175,197);
+    font-family: ArcaMajora3;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    position: relative;
+    z-index: 1;
+
+
+}
+.subscr{
+    position: relative;
+    z-index: 1;
+    width: 145px;
+    margin-left: 302px;
+    height: 40px;
+}
+
+#email{
+    font-family: Poppins;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    border-radius: 30px;
+    width: 322px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.repokar{
+    margin-top: 90px;
+    margin-left: -155px;
+}
+
+.adress{
+    margin-top: 15px;
+}
+.adress, .mail{
+    font-family:Poppins ;
+}
+.telephone{
+    color: rgb(50,175, 197);
+    font-family:ArcaMajora;
+}
+
+.facebook{
+    margin-right: 10px;
+}
+
+.line{
+    width: 1142px;
+    /*height: 1px;*/
+    background-color: white;
+}
+
+.end{
+    margin-top: 17px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    margin-bottom: 37px;
+}
+
+
+@media (max-width: 1200px) {
+    body{
+        width: 100%
+    }
+    .btnSearch{
+        margin-left: 130px;
+    }
+
+    #srch{
+        margin-left: 960px;
+    }
+
+    .photoMain {
+        width: 146%;
+        margin-left: -180px;
+    }
+    .perfectMenu{
+        margin-left: 100px;
+    }
+
+    .forCar{
+        margin-left: 700px;
+    }
+}
+
+@media (max-width: 991px) {
+    body{
+        width: 100%;
+    }
+    header{height: 750px}
+    .logo{
+        width: 30%;
+        height: 30%;
+        margin-top: 20px;
+        margin-left: 285px;
+    }
+    .menu li {
+        margin-left: -89px;
+        font-size: 17px;
+        margin-right: 79px;
+    }
+    .login{
+
+        margin-top: 64px;
+        width: 50%;
+        font-size: 17px;
+    }
+
+    .register{
+        width: 145px;
+        height: 57px;
+        margin-top: 43px;
+        font-size: 17px;
+    }
+    .text {
+        margin-top: 119px;
+        font-size: 105px;
+        text-align: center;
+    }
+    .txt {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .btnSearch{
+        margin-left: 35px;
+    }
+
+    #srch{
+        margin-left: 860px;
+    }
+    .steps {
+        margin-top: 45px;
+        font-size: 54px;
+        text-align: center;
+    }
+    reg {
+        margin-left: 11px;
+        margin-bottom: 20px;
+    }
+    .photoMain{
+        opacity: 0;
+        height: 0px;
+    }
+    .perfectMenu {
+        margin-left: 20px;
+    }
+    .see {
+        margin-bottom: -92px;
+        margin-bottom: 26px;
+        margin-left: 402px;
+
+    }
+    .blog{
+        height: 0px ;
+    }
+    .customer {
+        margin-top: -25px;
+        text-align: center;
+        font-size: 65px;
+    }
+    .ghilimele {
+        margin-top: 23px;
+    }
+    .undoRedo {
+        margin-top: 30px;
+    }
+    .bloger {
+        text-align: center;
+        margin-left: 80px;
+        font-family: Poppins;
+        font-size: 23px;
+        margin-top: 28px;
+        color: rgb(204,204,204);
+    }
+    .ghilimele2 {
+        margin-top: 16px;
+    }
+    .name {
+        text-align: right;
+        /* margin-left: 4px; */
+        margin-top: 27px;
+        font-family: ArcaMajora;
+        font-size: 22px;
+        color: rgb(239,93,96);
+    }
+    .date {
+        margin-top: 34px;
+    }
+.size{
+        width: 0px;
+        opacity: 0;
+    }
+    .banner {
+        margin-top: -220px;
+    }
+    .abt {
+        line-height: 21px;
+        margin-top: -6px;
+        font-size: 16px;
+    }
+}
